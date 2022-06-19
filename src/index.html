@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mx-auto my-5 max-w-[400px]">
+    <h1 class="my-4 text-center text-2xl font-semibold text-gray-400">NinjaWeather</h1>
+    <form class="change-location text-center">
+      <label class="block mb-2 text-sm" for="city">Enter A City For Weather Information</label>
+      <input type="text" name="city" class="bg-white border border-gray-300 rounded-md block mx-auto p-1 w-full max-w-full">
+    </form>
+
+    <div class="hidden card rounded-lg shadow-lg mt-4">
+      <img src="https://via.placeholder.com/400x300" class="time w-[100%] ">
+      <div class="icon mx-auto bg-white">
+        <!-- Icon -->
+        <img src="" alt="">
+      </div>
+
+      <div class="text-gray-400 uppercase text-center details">
+        <!-- Weather Info Div-->
+        <h5 class="my-3 text-sm font-bold">City Name:</h5>
+        <div class="my-3 text-sm">Weather Condition:</div>
+        <div class="my-4 text-3xl">
+          <span>temp</span>
+          <span>&deg;C</span>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

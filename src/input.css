@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  background: #eeedec;
+}
+
+.icon {
+  @apply relative -top-12 rounded-full max-w-[100px] -mb-[50px]
+}
+
